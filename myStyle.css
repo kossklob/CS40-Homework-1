@@ -1,0 +1,30 @@
+/* myStyle.css */
+body {
+ background-color: #333300;
+ color: #FFFFFF;
+}
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align: left;
+ border: 3px groove #FFFF33;
+}
+a:hover {
+  background-color: yellow;
+}
+.center {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.large {
+	font-size: 20
+}
