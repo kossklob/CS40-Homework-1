@@ -3,6 +3,11 @@ body {
  background-color: #333300;
  color: #FFFFFF;
 }
+@media screen and (min-width: 400px) {
+  body {
+    background-color: green;
+  }
+}
 h1 {
  color: #FFFF33;
  text-align: center;
@@ -18,13 +23,17 @@ a:hover {
   background-color: yellow;
 }
 .center {
-  text-align: center;
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .large {
 	font-size: 20
+}
+.link {
+	color: #FF0000;
+}
+.link:hover {
+	color: #00FF00;
 }
